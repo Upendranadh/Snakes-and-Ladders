@@ -9,7 +9,7 @@ public class Test {
 	@org.junit.Test
 	public void Snaketest() {
 		sl = new SnakeLadders();
-		assertEquals(true,sl.snake(1, 2));
+		assertEquals(true,sl.snake(1, 0));
 		assertEquals(false,sl.snake(2, 2));
 	}
 	
